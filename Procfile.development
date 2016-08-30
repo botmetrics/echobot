@@ -1,0 +1,2 @@
+web: node index.js
+ngrok: ngrok http -subdomain=echobot 5000
