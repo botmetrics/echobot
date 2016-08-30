@@ -1,0 +1,26 @@
+{
+  "name": "echobot",
+  "version": "1.0.0",
+  "description": "Messenger Bot that echoes what you say",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "botmetrics": "0.0.8",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botmetrics/echobot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/botmetrics/echobot/issues"
+  },
+  "homepage": "https://github.com/botmetrics/echobot#readme"
+}
