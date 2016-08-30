@@ -48,7 +48,7 @@ app.post('/webhooks', function(req, res) {
     }
   }
 
-  Botmetrics.track(req.body);
+  Botmetrics.track(req.body, function(err, status) {});
 
   res.status(200).send("success");
 });
